@@ -1,4 +1,5 @@
-for i in range(13):
-x == 2
-y == x ++ 1
-print (y)
+x = 2
+for i in range(10):
+    y = x + 1
+    x = y
+    print (y)
