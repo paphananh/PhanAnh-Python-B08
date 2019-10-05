@@ -10,3 +10,8 @@ for i in range (3):
 a = [ "u", "y", "e"]
 for i , item in enumerate (a):
     print (i,a[i])
+
+a = [ "u", "y", "e","ye"]
+for i in range(len(a)):
+    if "e" in a[i] :
+        print (a[i])
